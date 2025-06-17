@@ -31,4 +31,9 @@
 
 ---
 
+#💌 Acknowledgements
+Inspired by the official TailwindCSS Docs
 
+3D animation powered by Three.js
+
+Thanks to the open-source community 💖
