@@ -2,8 +2,6 @@
 
 **Lexica – LearnSpace** is a fun and interactive documentation platform built with **Vite + React**, designed to help kids explore coding concepts through a vibrant, animated, and beginner-friendly interface.
 
-![Lexica Screenshot](./public/preview.png)
-
 ---
 
 ## 🚀 Features
