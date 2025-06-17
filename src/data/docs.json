@@ -1,0 +1,135 @@
+[
+  {
+    "id": "intro",
+    "title": "Introduction",
+    "description": "Lexica is a beginner friendly, easy to learn language. It's a new compiled language to initiate a legacy to teach the coding easily.The comparison between C and Lexica given below : ",
+    "code": "",
+    "output": "",
+    "table": {
+      "headers": ["Lexica", "C", "Description"],
+      "rows": [
+        ["Print()", "printf()", "Used to print statements and variable values etc."],
+        ["Input", "scanf()", "Used to take user inputs"],
+        ["for i=0 until i=5", "for(int i=0; i<5; i++)", "It's a loop for repetitive operations. In Lexica, there is an in-built iterator 'until'"],
+        ["while until i<5", "while(i<5){ i = i+1 }", "Same as 'while', Lexica uses 'until' as built-in keyword"],
+        [
+          "do operations until i<5",
+          "do {\n    i = i+1\n} while(i<5);",
+          "It's a loop that ensures the operations are performed at least once"
+        ],
+        [
+          "if age<18\nelse if age>18\nelse",
+          "if(age<18){...}\nelse if(age>18){...}\nelse{...}",
+          "Standard conditional logic"
+        ],
+        [
+          "EVENTFOR(var)\n  CASE 1:\n    operations\n    break\n  DEFAULT:\n    operations\n    break",
+          "switch(var) {\n  case 1:\n    printf(\"Case 1 is Matched.\");\n    break;\n  default:\n    printf(\"Default case is Matched.\");\n    break;\n}",
+          "It's a kind of nested if-else designed for reducing complexity"
+        ],
+        [
+          "create datatype SAFEBOX s upto 10 X 1",
+          "int arr[100]",
+          "It's a declaration of array"
+        ],
+        [
+          "create SAFEBOX s upto 10 X 5",
+          "int arr[100][5]",
+          "Multidimensional array"
+        ],
+        [
+          "ADDIN s POS 1 [DATA]",
+          "int arr[1] = data",
+          "Method to insert data in an array"
+        ],
+        [
+          "DELTIN s POS 2",
+          "int arr[2] = data",
+          "There's no such built-in delete; this is a special Lexica feature"
+        ],
+        [
+          "function_name(arguments) A return_type Function",
+          "return_type function_name()",
+          "Defines a user-defined method"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "code1",
+    "title": "Variables",
+    "description": "Let's start with learning the declaration of variables",
+    "code": "int a=10 (Integer value)\nchar b='L' (Store a letter)\nfloat c=1.02 (Store decimal value)",
+    "output": ""
+  },
+  {
+    "id": "code2",
+    "title": "Print",
+    "description": "Now, we learn how to print a statement & a variable value",
+    "code": "int a=10\nprint(''Hello World'')\nprint(a)",
+    "output": "Hello World\n10"
+  },
+  {
+    "id": "code3",
+    "title": "Input",
+    "description": "Now, we learn how to take input from keyboard",
+    "code": "Input int x\nInput char y",
+    "output": ""
+  },
+  {
+    "id": "code4",
+    "title": "For Loop",
+    "description": "Now, we learn about for loop, just declare who many times you want to iterate starting is 0, Here is an example:",
+    "code": "for i=0 until i=5\n   print(''Hello'')",
+    "output": "Hello\nHello\nHello\nHello\nHello"
+  },
+  {
+    "id": "code5",
+    "title": "While Loop",
+    "description": "Now, we learn about while loop, It's used to do the operation until a specific condition satisfied.",
+    "code": "int a=3\nwhile until i<0\n    print(''Hello'')\n    i=i-1",
+    "output": "Hello\nHello\nHello"
+  },
+  {
+    "id": "code6",
+    "title": "If-Else Statement",
+    "description": "Now, we learn if-else statement, It's used to do specific condition if a specific condition satisfied.",
+    "code": "int age=16\nif age>18\n    print(''I am above 18'')\nelse if age<18\n    print(''I am under 18'')\nelse\n    print(''I am 18'')",
+    "output": "I am under 18"
+  },
+  {
+    "id": "code7",
+    "title": "EVENTFOR",
+    "description": "Now, we learn about EVENTFOR if we work on a nested if-else code that will be haptic to handle, by using this concept we declare multiple cases for a event",
+    "code": "int month=2\nEVENTFOR (x)\n  CASE 1:\n    print(''January'')\n    break\n  CASE 2:\n    print(''February'')\n    break\n  DEFAULT:\n    print(''other'')",
+    "output": "February"
+  },
+  {
+    "id": "code8",
+    "title": "SAFEBOX",
+    "description": "Now, we learn about array, It's like think about a busket stored a similar types of data",
+    "code": "create int SAFEBOX s upto 10\nor\ncreate int SAFEBOX s upto 10 X 5(2D array, means think about a 10 X 5 table)",
+    "output": ""
+  },
+  {
+    "id": "code9",
+    "title": "SAFEBOX Input",
+    "description": "Now, we learn how take input in SAFEBOX",
+    "code": "int a=10\ncreate int SAFEBOX s upto 10\nADDIN s POS 1 [a]\nprint(s[1])",
+    "output": "10"
+  },
+  {
+    "id": "code10",
+    "title": "SAFEBOX Delete Data",
+    "description": "Now, we learn how delete data in SAFEBOX",
+    "code": "DELTIN s POS 1",
+    "output": ""
+  },
+  {
+    "id": "code10",
+    "title": "Function",
+    "description": "Now, we learn how declare a user define function",
+    "code": "int a=5\nint b=2\ndisplay() A void Function\n    print(''Hello'')\nor\nsum(int a, int b) A int Function\n    return a+b\nor\nadd(int a, int b) A int Function\n    int c=a+b\n    return c",
+    "output": "Hello\n7\n7"
+  }
+]
